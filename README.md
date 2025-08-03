@@ -1,5 +1,7 @@
 # hollow README
 
+Inspired by both the Zed Quill theme and VSCode Oscura Themes
+
 ## Working with Markdown
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:

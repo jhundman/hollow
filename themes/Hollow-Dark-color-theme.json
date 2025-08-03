@@ -1,0 +1,151 @@
+{
+    "name": "Hollow Quill Dusk (Final)",
+    // -------------------------------------------------------------------------
+    // Workbench UI Colors (Controls the visual styling of the UI elements)
+    // -------------------------------------------------------------------------
+    "colors": {
+        "editor.background": "#0D0B0B",                 // Final, even darker editor background
+        "editor.foreground": "#d6d3d1",                 // Default text color
+
+        // Final, darkest panel backgrounds
+        "sideBar.background": "#110F0F",
+        "activityBar.background": "#110F0F",
+        "statusBar.background": "#110F0F",
+        "editorGroupHeader.tabsBackground": "#110F0F",
+        
+        "statusBar.foreground": "#78716c",              // Final subdued text, matches comment color
+
+        "tab.inactiveBackground": "#1f1d1c",            // Background of inactive tabs
+        "sideBar.foreground": "#a8a29e",                // Sidebar text color
+        "activityBar.foreground": "#a8a29e",            // Activity bar icons
+        "activityBarBadge.background": "#AEE078",       // FINAL high-contrast yellow-green
+        "activityBarBadge.foreground": "#121010",       // Badge text
+        "sideBarTitle.foreground": "#a8a29e",           // Sidebar title color
+        "editorLineNumber.foreground": "#44403c",       // Line number color
+        "editorLineNumber.activeForeground": "#a8a29e", // Active line number color
+        "editor.selectionBackground": "#a855f740",      // Selected text background
+        "focusBorder": "#44403c",                        // Focus border color
+        "tab.activeBackground": "#0D0B0B",              // Match new editor background
+        "tab.activeBorder": "#AEE078",                  // FINAL high-contrast yellow-green
+        "gitDecoration.modifiedResourceForeground": "#AEE078", // FINAL high-contrast yellow-green
+        "list.activeSelectionForeground": "#79BBF8",    // FINAL high-contrast blue
+        "list.activeSelectionBackground": "#110F0F"     // Match new sidebar background
+    },
+    // -------------------------------------------------------------------------
+    // Syntax Highlighting (Defines colors and styles for code syntax and tokens)
+    // -------------------------------------------------------------------------
+    "tokenColors": [
+        {
+            "name": "Comment",
+            "scope": ["comment", "punctuation.definition.comment"],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#78716c"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": ["variable", "string constant.other.placeholder"],
+            "settings": {
+                "foreground": "#d6d3d1"
+            }
+        },
+        {
+            "name": "Invalid",
+            "scope": ["invalid", "invalid.illegal"],
+            "settings": {
+                "foreground": "#FF5370"
+            }
+        },
+        {
+            "name": "Keyword, Storage, Language Methods",
+            "scope": ["keyword", "storage.type", "storage.modifier", "variable.language"],
+            "settings": {
+                "foreground": "#a78bfa"
+            }
+        },
+        {
+            "name": "Operators & Punctuation",
+            "scope": ["punctuation", "keyword.operator"],
+            "settings": {
+                "foreground": "#a8a29e"
+            }
+        },
+        {
+            "name": "Tags, Links, URLs, Attributes",
+            "scope": ["entity.name.tag", "entity.other.attribute-name", "*url*", "*link*", "*uri*"],
+            "settings": {
+                "foreground": "#79BBF8"
+            }
+        },
+        {
+            "name": "Functions, Classes, Types, Decorators",
+            "scope": [
+                "entity.name.function",
+                "meta.function-call",
+                "variable.function",
+                "support.function",
+                "keyword.other.special-method",
+                "entity.name",
+                "support.type",
+                "support.class",
+                "tag.decorator.js entity.name.tag.js"
+            ],
+            "settings": {
+                "foreground": "#fdba74"
+            }
+        },
+        {
+            "name": "Numbers & Constants",
+            "scope": ["constant.numeric", "constant.language", "support.constant"],
+            "settings": {
+                "foreground": "#AEE078" // FINAL high-contrast yellow-green
+            }
+        },
+        {
+            "name": "Strings & Symbols",
+            "scope": ["string", "constant.other.symbol", "constant.other.key"],
+            "settings": {
+                "foreground": "#f0abfc"
+            }
+        },
+        {
+            "name": "JSON Keys",
+            "scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
+            "settings": {
+                "foreground": "#fdba74"
+            }
+        },
+        {
+            "name": "Markdown - Heading",
+            "scope": ["markup.heading"],
+            "settings": {
+                "foreground": "#fdba74",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markup - Italic",
+            "scope": ["markup.italic"],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#AEE078" // FINAL high-contrast yellow-green
+            }
+        },
+        {
+            "name": "Markup - Bold",
+            "scope": ["markup.bold"],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#AEE078" // FINAL high-contrast yellow-green
+            }
+        },
+        {
+            "name": "Python Import Keywords",
+            "scope": "keyword.control.import.python",
+            "settings": {
+                "foreground": "#79BBF8"
+            }
+        }
+    ]
+}
